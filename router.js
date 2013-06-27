@@ -1,8 +1,8 @@
-var http = require("http");
+
 var fs = require("fs");
 var path = require("path");
 var url = require("url");
-var express = require("express");
+
 
 var util=require("util");
 
@@ -49,7 +49,6 @@ function route(pathname,response) {
 
            var fileStream = fs.createReadStream(filename);
            fileStream.pipe(response);
-           response.end();
        });
 
 
