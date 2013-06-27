@@ -1,21 +1,13 @@
-var http = require("http");
+/*var http = require("http");
 var fs = require("fs");
 var path = require("path");
 var url = require("url");
-var express = require("express");
+var express = require("express");*/
 var server = require("./serverStart");
 var router = require("./router");
 
-var mimeTypes = {
-    "html": "text/html",
-    "jpeg": "image/jpeg",
-    "jpg": "image/jpeg",
-    "png": "image/png",
-    "js": "text/javascript",
-    "css": "text/css"
-};
 
-server.start(router.route);
+server.serverStart(router.route);
 
 /*var app=express();
 

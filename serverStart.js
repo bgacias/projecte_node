@@ -1,14 +1,14 @@
 var http = require("http");
 var url = require("url");
+var util =require("util");
 function serverStart(route) {
     http.createServer(function(request, response) {
         var pathname = url.parse(request.url).pathname;
-        console.log("Received petition for " + pathname);
-        route(pathname);
-        response.writeHead(200, {"Content-Type": "text/html"});
-        response.write("¿test---?");
-        response.end();
+        route(pathname,response);
+       /* response.writeHead(200, {"Content-Type": "text/html"});
+        response.write("test---?");
+        response.end();*/
     }).listen(8080);
-    console.log("Server started...");
+    util.log("Server started...");
 }
-exports.start = serverStart;
+exports.serverStart = serverStart;
