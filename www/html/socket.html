@@ -1,0 +1,15 @@
+<!DOCTYPE>
+
+<html>
+<head>
+    <title></title>
+    <script src="http://localhost:3030/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+    var socket = io.connect('http://localhost:3030');
+    socket.emit('my event', 'Hello world.');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 var http = require("http");
 var url = require("url");
 var util =require("util");
+
 function serverStart(route) {
     http.createServer(function(request, response) {
         var pathname = url.parse(request.url).pathname;
@@ -8,7 +9,7 @@ function serverStart(route) {
        /* response.writeHead(200, {"Content-Type": "text/html"});
         response.write("test---?");
         response.end();*/
-    }).listen(8080);
+    }).listen(3030);
     util.log("Server started...");
 }
 exports.serverStart = serverStart;
