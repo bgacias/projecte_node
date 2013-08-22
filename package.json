@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "express": "3.2.6" , "socket.io": "*",
-        "node-static": "*"
+        "node-static": "*" ,"request":"*"
   },
     "scripts": {
         "start": "server.js"
