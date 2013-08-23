@@ -1,7 +1,7 @@
 
-//var express = require("express");
-var server = require("./serverStart");
-var router = require("./router");
+
+var server = require("./www/script/serverStart");
+var router = require("./www/script/router");
 
 
 server.serverStart(router.route);
