@@ -2,7 +2,7 @@
 ## llibreries javascript
 #################
 
- .www/
+ www/js
 
 #################
 ## documentacio
@@ -57,8 +57,7 @@ node_modules/
 # Logs and databases #
 ######################
 *.log
-*.sql
-*.sqlite
+
 
 # OS generated files #
 ######################
