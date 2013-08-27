@@ -10,6 +10,6 @@ function serverStart(route) {
         response.write("test---?");
         response.end();*/
     }).listen(3030);
-    util.log("Server started...");
+    util.log("Server started...on port 3030");
 }
 exports.serverStart = serverStart;
