@@ -1,5 +1,0 @@
-
-1)configurar valors proxy al fitxer    C:\nodejs\.npmrc
-2)executar primer C:\nodejs\nodevars.bat
-3)en la linia de comandes executar ( per usar el npm).
-    npm config set strict-ssl false
