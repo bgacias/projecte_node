@@ -1,4 +1,17 @@
 #################
+## Ignore all dotfiles...
+## except for .gitignore
+#################
+
+.*
+
+!.gitignore
+!.openshift
+
+
+
+
+#################
 ## llibreries javascript
 #################
 
