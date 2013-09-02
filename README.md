@@ -1,3 +1,3 @@
 projecte_node
 =============
-prova llenguatge node.ja
+prova llenguatge node.js
